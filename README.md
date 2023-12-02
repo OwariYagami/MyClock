@@ -2,6 +2,10 @@
 
 Aplikasi ini merupakan aplikasi yang berfungsi untuk menyetel alarm, timer, dan melihat waktu lokal
 di dalam aplikasi terdapat 3 menu yaitu Alarm, Timer, dan Clock
+
+# Teknologi
+Aplikasi dibuat dengan Android Studio dengan memakai Jetpack Compose
+
 ## Alarm
 1. Di dalam menu ini kita bisa melihat daftar alarm yang telah dibuat.
 2. kita bisa menambah alarm baru dengan menekan ikon plus.

@@ -1,45 +1,59 @@
 # MyClock
 
-Aplikasi ini merupakan aplikasi yang berfungsi untuk menyetel alarm, timer, dan melihat waktu lokal
-di dalam aplikasi terdapat 3 menu yaitu Alarm, Timer, dan Clock
+<p align="center">
+  <img src="Screenshot_20231104_224100_MyClock.png" alt="Screenshot 1" width="30%">
+  <img src="Screenshot_20231104_224133_MyClock.png" alt="Screenshot 2" width="30%">
+  <img src="Screenshot_20231104_224143_MyClock.png" alt="Screenshot 3" width="30%">
+</p>
 
-# Teknologi
-Aplikasi dibuat dengan Android Studio dengan memakai Jetpack Compose
+## Description
+This application serves as an alarm, timer, and local clock utility. The app features three main menus: Alarm, Timer, and Clock.
+## Features
+- Alarm Menu:
+View a list of all alarms that have been set.
+Add a new alarm by tapping the plus icon.
+A new screen will appear where you can enter the alarm name, set the desired time, and then save it.
+- Timer Menu:
+Features a countdown timer initially set to 100 seconds.
+Click the "Start" button to begin the countdown, and click it again to pause.
+- Clock Menu:
+Displays the current time in hours, minutes, and seconds according to the system time.
 
-## Alarm
-1. Di dalam menu ini kita bisa melihat daftar alarm yang telah dibuat.
-2. kita bisa menambah alarm baru dengan menekan ikon plus.
-3. Muncul screen baru, yang di dalamnya untuk mengisi nama alarm, kemudian setAlarm sesuai keinginan, kemudian simpan
-   
-<img
-  src="https://github.com/OwariYagami/MyClock/blob/master/Screenshot_20231104_224100_MyClock.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:216px;height:480px">
-<img
-  src="https://github.com/OwariYagami/MyClock/blob/master/Screenshot_20231104_224108_MyClock.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:216px;height:480px">
-  <img
-  src="https://github.com/OwariYagami/MyClock/blob/master/Screenshot_20231104_224121_MyClock.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:216px;height:480px">
-## Timer
-1. Terdapat countdown timer yang terpasang default 100 sec, klik tombol start untuk memulai countdown, dan klik lagi untuk pause
-   
-   <img
-  src="https://github.com/OwariYagami/MyClock/blob/master/Screenshot_20231104_224133_MyClock.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:216px;height:480px">
+## Technologies Used
+- Kotlin
+- Android Studio
+- Jetpack Compose
 
-## Clock
-1. Hanya menampilkan waktu dalam format jam menit detik sesuai waktu sistem
-   
- <img
-  src="https://github.com/OwariYagami/MyClock/blob/master/Screenshot_20231104_224143_MyClock.png"
-  alt="Alt text"
-  title="Optional title"
-  style="display: inline-block; margin: 0 auto; width:216px;height:480px">
+## Installation
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/OwariYagami/MyClock.git
+    ```
+2. Open the project in Android Studio
+3. Build and run the project on an emulator or physical device
+
+## Usage
+1. Launch the app on your device.
+2. Navigate to the "Alarm" menu to view existing alarms.
+3. Tap the plus icon to add a new alarm.
+4. Enter the alarm name, set the desired time, and tap "Save" to create the alarm.
+
+
+## Contributing
+1. Fork the repository
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some feature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. Open a Pull Request
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
